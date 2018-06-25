@@ -13,8 +13,8 @@ namespace Deutsch1
 		{
 			InitializeComponent();
 
-			MainPage = new Deutsch1.MainPage();
-		}
+            MainPage = new NavigationPage(new MainPage());
+        }
 
 		protected override void OnStart ()
 		{

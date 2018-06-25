@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:Deutsch1.Forms.Pages.Xaml.CustomCells;assembly=Deutsch1.Forms.Pages"
+             x:Class="Deutsch1.Kapitel1">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="menuuebung"   Text="Übungen"
+                    x:Name="menuitem"/>
+        
+    </ContentPage.ToolbarItems>
+    <ContentPage Title="Dialog" >
+
+        <StackLayout>
+        <Label Text="Im Internet..."
+               Margin="80,0,0,0" Font="20"
+               />
+        <Label Text="Hallo :)"
+               Margin="5,10,0,0"
+               />
+        <Label Text="Hallo :)"
+               Margin="300,10,0,0"
+               
+               />
+        <Label Text="Dein Post ist sehr lustig :D"
+                Margin="5,10,0,0"
+              />
+        <Label Text="Danke."
+               Margin="300,10,0,0"
+               />
+        <Label Text="Wie heißt du?"
+                Margin="5,10,0,0"
+               />
+        <Label Text="Ana, und du?"
+               Margin="270,10,0,0"
+             />
+        <Label Text="Ich heiße Tiago."
+                Margin="5,10,0,0"
+               />
+        <Label Text="Tiago? Woher kommst du? Aus Spanien?"
+               Margin="100,10,0,0"
+               />
+        <Label Text="Nein, ich komme aus Brasilien."
+                Margin="5,10,0,0"
+              />
+        
+
+    </StackLayout>
+        </ContentPage>
+        <ContentPage Title="Erklärung" >
+            <StackLayout>
+                <Label Text="There are many forms to beginn a conversation in German, or to greet someone. They are:"/>
+                <Label Text="Hallo"/>
+                <Label Text="Servus"/>
+                <Label Text="Grüß dich"/>
+                <Label Text="Grüß Sie."/>
+                <Label Text="Or you can greet with the period of the day:"/>
+                <Label Text="Guten Morgen (Morgen, Moin) - when you wake up till  ~10 a.m."/>
+                <Label Text="Guten Tag (Tag)  - from ~ 10 a.m. Till  ~ 6 p.m. "/>
+                <Label Text="Guten Abend (Abend) – from ~ 6 p.m till late."/>
+                <Label Text="Gute Nacht – when you go sleep."/>
+                <Label Text="PS: The complet forms ( with the words 'Guten, Gute') are used normally in formal contexts.
+"/>
+                <Label Text="When you use a language, you can use it in a passiv form or activ form. Passiv is when you read or listen. Activ is when you write or speak. The passiv form is much more easier. So don't worry if I not explain all words, or if you can not translate in the beginning all words. I am exersicing your passiv use of the language.  Your activ use we will work it out later. "/>
+                </StackLayout>
+            </ContentPage>
+            
+
+                <ContentPage Title="Glossar" >
+                </ContentPage>
+
+
+
+
+</TabbedPage>

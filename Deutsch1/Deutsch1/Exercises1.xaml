@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Deutsch1.Exercises1">
+  <!--Pages can be added as references or inline-->
+  <ContentPage Title="Übung 1" >
+    <StackLayout>
+            <Label Text="Eine Konversation kann NICHT beginnen mit:" Font="15" FontAttributes="Bold"
+                   x:Name="tran"/>
+
+
+            <Button x:Name="btnoption1"
+            Text="Hallo"/>
+    <Button x:Name="btnoption2"
+            Text="Servus"/>
+    <Button x:Name="btnoption3"
+            Text="Guten Morgen"/>
+    <Button x:Name="btnoption4"
+            Text="Gute Nacht"/>
+    </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Übung 2" 
+                 >
+        <StackLayout x:Name="stk"
+        IsVisible="True">
+            <Label Text="Was ist Formell? (Mehrere Antworten möglich)"/>
+            <Switch x:Name="ex1" IsToggled="False"/>
+            <Switch x:Name="ex2" IsToggled="False"/>
+            <Switch x:Name="ex3" IsToggled="False"/>
+            <Switch x:Name="ex4" IsToggled="False"/>
+            <Button x:Name="btnantwort" Text="Ok"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Übung 3" >
+    </ContentPage>
+
+</TabbedPage>
